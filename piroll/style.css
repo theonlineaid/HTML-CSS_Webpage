@@ -1,0 +1,323 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700|Poppins:300,400,500,600,700');
+ body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+}
+/* font-family: 'Oswald', sans-serif; */
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+.fix {
+	overflow: hidden
+}
+/* a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+} */
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+	color: #2B96CC;
+	text-decoration: none;
+}s
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	color: #313131;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 400;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #787878;
+	margin-top:0;
+	margin-bottom: 1rem;
+}
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+	box-sizing:content-box;
+    height:0;
+    overflow:visible
+}
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+*::-moz-selection {
+	background: #d6b161;
+	color: #fff;
+	text-shadow: none;
+}
+::-moz-selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
+*::-moz-placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+*::placeholder {
+	color: #555555;
+	font-size: 14px;
+	opacity: 1;
+}
+.separator {
+	border-top: 1px solid #f2f2f2
+}
+.click {
+	font-size: 12px;
+	letter-spacing: 2px;
+	padding: 20px 40px;
+	display: inline-flex;
+	color: white;
+}
+/* header started here */
+.theme-bg{
+	background: #6ad2ce;
+}
+.theme-color{
+	color: #6ad2ce;
+}
+header{
+}
+nav{}
+.only-head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.nav {
+	width: 100%;
+	display: flex;
+	justify-content: right;
+	min-height: 100px;
+	align-items: center;
+	z-index: 1;
+}
+.logo {
+	width: 20%;
+}
+.ul {
+	display: flex;
+	width: 80%;
+	justify-content: right;
+	text-transform: uppercase
+}
+.ul li {
+	flex-direction: row;
+	width: 10%;
+}
+li.active > a {
+	color: #6ed8d4;
+	/* background: red; */
+}
+.ul li a{
+	font-size: 12px;
+}
+.banner {
+}
+.banner img{
+	max-width:100%;
+	min-height: 100vh
+}
+.position-left {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+	width: 500px;
+}
+/* profissonal skill */
+.skills {
+	width: 100%;
+	padding-top: 25px;
+}
+.skills li > span {
+	position: absolute;
+	z-index: 1;
+	top: -23px;
+	left: 0;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #222;
+}
+.skills li:not(:first-child) {
+	margin-top: 50px;
+}
+.skills li > span {
+	font-weight: 300;
+	color: #111310;
+	letter-spacing: 3px;
+	top: -24px;
+}
+
+.skills li {
+	position: relative;
+	margin-top: 38px;
+	height: 4px;
+	background-color: #f5f5f5;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	border-radius: 2px;
+}
+
+/* .skills li .progress {
+	height: 3px;
+}
+  */
+.skills li .progress {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #67d06a;
+	width: 100%;
+	border-radius: 2px;
+	overflow: visible !important;
+	-webkit-transition: width 1.2s ease-in-out;
+	-o-transition: width 1.2s ease-in-out;
+	transition: width 1.2s ease-in-out;
+}
+.skills li .progress-percent {
+	position: absolute;
+	top: -28px;
+	right: 0;
+	background-color: #333;
+	color: #f9f9f9;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	height: 22px;
+	line-height: 22px;
+	padding: 0 5px;
+	font-size: 11px;
+	border-radius: 2px;
+}
+.skills li .progress-percent {
+	color: #f9f9f9;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+	line-height: 22px;
+	font-size: 11px;
+}
+.progress-percent::before {
+	border-top-color: #333;
+	border-width: 5px;
+	left: 50%;
+	margin-left: -5px;
+}
+.progress-percent::after, .progress-percent::before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.progress-percent::after {
+	border-top-color: #333;
+	border-width: 4px;
+	left: 50%;
+	margin-left: -4px;
+}
+
+
+
+
+
+
+
+ 

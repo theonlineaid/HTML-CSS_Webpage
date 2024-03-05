@@ -1,0 +1,42 @@
+    /* let's get started */
+    /* min width and max width mixed */
+    @media (min-width:1200px) and (max-width:1500px) {
+   }
+   @media (min-width:992px) and (max-width:1199px) {
+   }
+   @media (min-width:768px) and (max-width:991px) {
+    
+   }
+   @media (min-width:540px) and (max-width:767px) {
+  
+   
+   } 
+   @media (min-width:400px) and (max-width:539px) {
+   
+   }
+/* device responsive width */
+  @media (min-width:400px) {
+   .container {
+      max-width:370px
+   }
+  } 
+ @media (min-width:576px) {
+   .container {
+    max-width:540px
+   }
+ }
+  @media (min-width:768px) {
+   .container {
+    max-width:720px
+   }
+  }
+  @media (min-width:992px) {
+   .container {
+    max-width:960px
+   }
+  }
+  @media (min-width:1200px) {
+  .container {
+    max-width:1350px
+   }
+  }

@@ -1,0 +1,96 @@
+@media only screen and (max-width: 767px){
+    .menu-area .logo {
+        width: 70%;
+        float: left;
+        margin-top: 17px;
+    }
+    .container {
+        width: 600px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .menu-area .logo img {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .toggle {
+        display: block;
+        width: 30%;
+        float: left;
+        margin-top: 20px;
+        text-align:right;
+        padding-right: 64px;
+        font-size: 26px;
+    }
+    .toggle a{
+        padding: 10px;
+    }
+    .nav{
+        display:none;
+    }
+    .menu-area ul {
+        text-align: left;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .menu-area ul li {
+        display: block;
+        background: rebeccapurple;
+        width: 100%;
+        opacity: 0.9;
+    }
+    .menu-area ul li a{
+        margin-top: 5px;
+        padding: 10px;
+    }
+    .banner .info-head h1 {
+        bottom: 14%;
+        left: 35%;
+    }
+    .banner .info-head p {
+        bottom: 9%;
+    }
+    .col-md-4 {
+        width: 50%;
+    }
+    .service-area {
+        margin-top: 25px;
+        margin-bottom: 50px;
+        /* background-color: red; */
+    }
+    .web-img .bg-40 {
+        width: 100%;
+    }
+    .web-img .bg-60 {
+        width: 100%;
+    }
+    .banner .info h1 {
+        top: 15%;
+        font-size: 26px;
+        text-align: center;
+    }
+    .banner .info p {
+        top: 47%;
+    }
+    .banner .aingel {
+		bottom: 39px;
+	}
+    .col-3 {
+		width: 50%;
+		padding-right: 49px;
+	}	
+    input {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .footer-area .form-area .f-1 {
+        width: 340px;
+    }
+    .footer-area .form-area .button {
+        width: 341px;
+    }
+	.footer-area {
+	top: -46px;
+	}
+
+}

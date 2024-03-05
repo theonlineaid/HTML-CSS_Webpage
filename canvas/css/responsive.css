@@ -1,0 +1,283 @@
+    /* let's get started */
+    /* min width and max width mixed */
+   @media (min-width:1200px) and (max-width:1500px) {
+   }
+   @media (min-width:992px) and (max-width:1199px) {
+   }
+   @media (min-width:768px) and (max-width:991px) {
+    .main-menu ul {
+      padding: 0;
+    }
+    .main-menu {
+      text-align: left;
+    }
+    .logo{
+      text-align:center;
+      color:#fff!important;
+      border:0;
+    }
+    .sticky .logo {
+      background: rebeccapurple;
+    }
+    .logo a{
+      color:#fff
+    }
+    .latest-work .col-md-3 {
+      width: 25%;
+      padding: 0px;
+    }
+    .blog .col-md-3 {
+      width: 25%;
+    }
+    .team-section .col-md-3 {
+      width: 25%;
+    }
+    .team-wraper {
+      height: auto;
+      padding-bottom: 20px;
+    }
+   }
+   @media (min-width:540px) and (max-width:767px) {
+    body{
+      background-color: #fff;
+    }
+    header {
+      border-bottom: 0;
+    }
+    header.sticky {
+      background-color: rgba(7, 6, 6, 0.5);
+    }
+    .sticky .logo {
+      margin-top: 5px;
+    }
+    .main-menu {
+      display: none;
+    }
+    .main-menu ul {
+      float: left;
+      width: 100%;
+      padding: 0;
+      margin-top: 15px;
+      background: #170606;
+      opacity: .7;
+    }
+    .main-menu ul li {
+      display: block;
+      width: 100%;
+      float: left;
+    }
+    .main-menu ul li a {
+      color: #1951eb;
+      font-weight: normal;
+    }
+    .main-menu ul li a:hover {
+      background: rgb(23, 180, 201);
+    }
+    .burger.stick {
+      position: fixed;
+      margin: 0;
+      display: inline-block;
+      right: 115px;
+      padding-top: 10px;
+    }
+    .burger {
+      display: block;
+      float: right;
+      margin-bottom: 10px;
+      width: 60%;
+      text-align: right;
+      margin-top: 16px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+    .burger i {
+      color: #fff;
+      font-size: 24px;
+    }
+    .logo {
+      border-right: 0;
+      float: left;
+      width: 30%;
+      margin-top:20px;
+    }
+    .logo a{
+      color: #fdfbfb;
+    }
+    .slider-area h1 {
+      font-size: 45px;
+      color: #fff;
+    }
+    .slider-area p {
+      width: 500px;
+      font-size: 14px;
+    }
+    .owner-advise p {
+      font-size: 25px;
+    }
+    .one img {
+      width: 100%;
+      float: right;
+      text-align: right;
+    }
+    .two img {
+      width: 100%;
+      left: 0%;
+      position: relative;
+      bottom: 314px;
+    }
+    .content h1 {
+      font-size: 20px;
+      line-height: 26px;
+      margin-bottom: 5px;
+      padding-bottom: 10px;
+    }
+    .content p{
+      font-size:15px;
+    }
+    .content .one {
+      position: relative;
+    }
+    .col-md-3 {
+      width: 100%;
+      padding: 0px 15px;
+      float: left;
+      display: block;
+    }
+     .content-padding {
+      text-align: center;
+    }
+     .team-wraper {
+      height: auto;
+      background: #f3dfdf4d;
+      margin-top: 20px;
+    }
+    .brand-area {
+      background: #111111;
+    }
+    .latest-work .col-md-3 {
+      width: 50%;
+      padding: 0px;
+    }
+    .blog .col-md-3 {
+      width: 50%;
+    }
+    .team-section .col-md-3 {
+      width: 50%;
+    }
+   } 
+   @media (min-width:400px) and (max-width:539px) {
+    header {
+      border-bottom: 0;
+    }
+    header.sticky {
+      background-color: rgba(7, 6, 6, 0.5);
+    }
+    .sticky .logo {
+      margin-top: 5px;
+    }
+    .main-menu {
+      display: none;
+    }
+    .main-menu ul {
+      float: left;
+      width: 100%;
+      padding: 0;
+      margin-top: 15px;
+      background: #170606;
+      opacity: .7;
+    }
+    .main-menu ul li {
+      display: block;
+      width: 100%;
+      float: left;
+    }
+    .main-menu ul li a {
+      color: #1951eb;
+      font-weight: normal;
+      padding: 15px 20px;
+    }
+    .main-menu ul li a:hover {
+      background: rgb(23, 180, 201);
+    }
+    .burger.stick {
+      position: fixed;
+      margin: 0;
+      display: inline-block;
+      right: 115px;
+      padding-top: 10px;
+    }
+    .burger {
+      display: block;
+      float: right;
+      margin-bottom: 10px;
+      width: 60%;
+      text-align: right;
+      margin-top: 16px;
+      font-weight: bolder;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+    .burger i {
+      color: #fff;
+      font-size: 24px;
+    }
+    .logo {
+      border-right: 0;
+      float: left;
+      width: 30%;
+      margin-top:10px;
+    }
+    .logo a{
+      color: #fdfbfb;
+    }
+    .latest-work .col-md-3 {
+      width: 100%;
+      padding: 0px;
+    }
+    .blog .col-md-3 {
+      width: 100%;
+    }
+    .team-wraper {
+      background: #f3dfdf4d;
+      margin-top: 17px;
+      height:auto
+    }
+    .team-section .col-md-3 {
+      width: 100%;
+    }
+    .pb-100 {
+      padding-bottom: 15px;
+    } 
+    .slide-1 {
+      text-align: center !important;
+      display: flex;
+      justify-content: center;
+    }
+   }
+    /* container responsive width */
+   @media (min-width:400px) {
+     .container {
+      max-width:370px
+     }
+   } 
+   @media (min-width:576px) {
+     .container {
+      max-width:540px
+     }
+   }
+    @media (min-width:768px) {
+     .container {
+      max-width:720px
+     }
+    }
+    @media (min-width:992px) {
+     .container {
+      max-width:960px
+     }
+    }
+    @media (min-width:1200px) {
+    .container {
+      max-width:1350px
+     }
+    }

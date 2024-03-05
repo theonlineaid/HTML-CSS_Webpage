@@ -1,0 +1,18 @@
+
+
+
+
+@media all and (max-width: 767px){
+    .menu-area .logo{
+        width: 30px;
+        float: left;
+    }
+    .toggle{
+        display: block;
+        width: 70%;
+        float: left;
+    }
+    .menu-area ul{}
+    .menu-area ul li{}
+    .menu-area ul li a{}
+}
